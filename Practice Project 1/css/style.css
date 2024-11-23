@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* margin */
+
+.mb_50{
+    margin-bottom: 50px;
+}
+
+.mt_50{
+    margin-top: 50px;
+}
+
+.mb_20{
+    margin-bottom: 20px;
+}
+
+.mt_20{
+    margin-top: 20px;
+}
+
+/* padding */
+
+
+.p_20{
+    padding: 20;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    font-family: "poppins";
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bg{
+    background-image: url(../assets/images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* Before menu Start */
+
+
+.before-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+.before-menu .before-menu-left{
+    display: flex;
+    align-items: center;
+}
+
+.before-menu-left-image{
+    margin-right: 10px;
+}
+
+
+.before-menu-left-content{
+    color: white;
+}
+
+.before-menu-right{
+
+display: flex;
+}
+
+.before-menu-right img{
+    width: 26px;
+    margin-right: 10px;
+}
+
+
+/* Before menu End */
+
+
+
+/* Nav Start */
+
+nav{
+    display: flex;
+    background-color: #212529;
+    padding: 16px 0;
+    font-family: "roboto";
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 32px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-right: 60px;
+}
+
+.menu ul li a{
+    color: white;
+
+}
+
+.search{
+    display: flex;
+    position: relative;
+}
+
+.search img {
+    width: 22px;
+    position: absolute;
+    right: 4px;
+    top: 6px;
+}
+
+
+.search input{
+    width: 406px;
+    padding: 9px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 32px;
+    margin-left: 110px;
+}
+
+.login img{
+    width: 20px;
+    height: 20px;
+}
+
+.login a{
+    color: white;
+}
+
+/* Nav End */
