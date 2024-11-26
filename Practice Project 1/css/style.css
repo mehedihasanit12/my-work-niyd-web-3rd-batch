@@ -32,6 +32,10 @@
     margin-top: 20px;
 }
 
+.mb_10{
+    margin-bottom: 10px;
+}
+
 /* padding */
 
 
@@ -175,3 +179,194 @@ nav{
 }
 
 /* Nav End */
+
+
+/* Hero Section Start */
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 112px;
+    position: relative;
+}
+
+.hero-wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.hero-left{
+    height: 412px;
+}
+
+.hero-left img{
+    height: 100%;
+}
+
+
+.hero-right{
+
+}
+
+.hero-right h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.hero-right span{
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.hero-right p{
+    color: white;
+}
+
+.hero-right button{
+    color: white;
+    background-color: #212529;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+}
+
+.hero-right button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+
+.hero-button{  
+    position: absolute;  
+    left: 49px;  
+    top: 171px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-button button{
+    width: 45px;
+    height: 45px;
+    background-color: #212529;
+    border: none;
+    border-radius: 50%;
+}
+
+
+/* Hero Section End */
+
+
+
+
+/* Service Section Start */
+
+.service-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.service-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.service-icon{
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.service-icon img{
+    width: 100%;
+}
+
+.service-card-content{
+
+}
+
+.service-card-content h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.service-card-content p{
+    font-size: 16px;
+}
+
+/* Service Section End */
+
+
+
+/* Discount Section Start */
+
+
+
+.discount-section{
+    background-color: #212529; 
+}
+
+
+.discount-wrapper{
+    display: flex;
+}
+
+
+.discount-left{
+    margin-left: 236px;
+    margin-top: 252px;
+    width: 678px;
+    text-transform: uppercase;   
+    color: white;
+    
+}
+
+.discount-left h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.discount-left span{
+    color: aqua;
+}
+
+.discount-left p{
+    font-size: 16px;
+}
+
+
+.discount-left button{
+
+}
+
+
+
+.discount-right{
+
+}
+
+.discount-right img{
+
+}
+
+
+/* Discount Section End */
