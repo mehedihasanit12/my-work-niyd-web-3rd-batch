@@ -8,6 +8,10 @@
     src: url(../assets/fonts/Roboto-Regular.ttf);
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     font-family: "poppins";
 }
@@ -21,7 +25,51 @@ body{
 
 /* Before menu */
 
+section.before-menu {
+    padding: 5px;
+}
+
 
 .icon-image{
     width: 30px;
+}
+
+
+/* Navbar Section */
+
+a.navbar-brand.fw-bold {
+    color: white;
+}
+
+nav.navbar.navbar-expand-lg.bg-dark {
+    padding: 17px;
+}
+
+a.nav-link {
+    color: white;
+}
+
+li.nav-item {
+    margin-right: 26px;
+}
+
+a.navbar-brand.fw-bold {
+    margin-right: 55px;
+}
+
+input[type="search"] {
+    width: 269px;
+    /* position: relative; */
+}
+
+form img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 38px;
+    top: 4px;
+}
+
+.login a{
+    color: white;
 }
